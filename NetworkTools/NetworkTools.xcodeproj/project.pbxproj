@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B01FFBD21BFB31500097B1F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFBC21BFB31500097B1F /* AppDelegate.mm */; };
+		7B01FFBD21BFB31500097B1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFBC21BFB31500097B1F /* AppDelegate.m */; };
 		7B01FFC021BFB31500097B1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFBF21BFB31500097B1F /* ViewController.m */; };
 		7B01FFC321BFB31500097B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B01FFC121BFB31500097B1F /* Main.storyboard */; };
 		7B01FFC521BFB31700097B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B01FFC421BFB31700097B1F /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		7B01FFB821BFB31500097B1F /* NetworkTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B01FFBB21BFB31500097B1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7B01FFBC21BFB31500097B1F /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		7B01FFBC21BFB31500097B1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B01FFBE21BFB31500097B1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7B01FFBF21BFB31500097B1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B01FFC221BFB31500097B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 			children = (
 				7BCE4925255A768B0024F307 /* Class */,
 				7B01FFBB21BFB31500097B1F /* AppDelegate.h */,
-				7B01FFBC21BFB31500097B1F /* AppDelegate.mm */,
+				7B01FFBC21BFB31500097B1F /* AppDelegate.m */,
 				7B01FFBE21BFB31500097B1F /* ViewController.h */,
 				7B01FFBF21BFB31500097B1F /* ViewController.m */,
 				7B01FFC121BFB31500097B1F /* Main.storyboard */,
@@ -200,7 +200,7 @@
 				7BCE4935255A768B0024F307 /* WFNetDNSService.cpp in Sources */,
 				7B01FFCB21BFB31700097B1F /* main.m in Sources */,
 				7BCE4933255A768B0024F307 /* WFNetTraceRouteService.cpp in Sources */,
-				7B01FFBD21BFB31500097B1F /* AppDelegate.mm in Sources */,
+				7B01FFBD21BFB31500097B1F /* AppDelegate.m in Sources */,
 				7BCE4936255A768B0024F307 /* WFNetBaseService.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
