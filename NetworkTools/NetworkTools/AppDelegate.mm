@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "WFNetDNSService.hpp"
-#include "WFNetUtility.hpp"
 
 @interface AppDelegate ()
 
@@ -16,22 +14,8 @@
 
 @implementation AppDelegate
 
-- (void)forTest {
-//    WFNetBaseService service = WFNetDNSService();
-//    service.start("www.baidu.com");
-//
-//    NSLog(@"-----");
-//    char ipv4[4] = {192, 168, 2, 119};
-    string out_ip;
-    
-    bool is = isIPV6Net("64:ff9b::739f:62d", out_ip);
-    
-    NSLog(@"");
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [self forTest];
     return YES;
 }
 

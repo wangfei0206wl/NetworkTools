@@ -13,11 +13,12 @@
 		7B01FFC521BFB31700097B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B01FFC421BFB31700097B1F /* Assets.xcassets */; };
 		7B01FFC821BFB31700097B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B01FFC621BFB31700097B1F /* LaunchScreen.storyboard */; };
 		7B01FFCB21BFB31700097B1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFCA21BFB31700097B1F /* main.m */; };
-		7B01FFD621BFB3BE00097B1F /* WFNetPingService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFD421BFB3BE00097B1F /* WFNetPingService.cpp */; };
-		7B01FFD921BFB3D900097B1F /* WFNetTraceRouteService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFD721BFB3D900097B1F /* WFNetTraceRouteService.cpp */; };
-		7B01FFDC21BFB3ED00097B1F /* WFNetDNSService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFDA21BFB3ED00097B1F /* WFNetDNSService.cpp */; };
-		7B01FFDF21BFB83100097B1F /* WFNetBaseService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFDD21BFB83100097B1F /* WFNetBaseService.cpp */; };
-		7B01FFE221C0B65900097B1F /* WFNetUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFE021C0B65900097B1F /* WFNetUtility.cpp */; };
+		7BCE4933255A768B0024F307 /* WFNetTraceRouteService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4927255A768B0024F307 /* WFNetTraceRouteService.cpp */; };
+		7BCE4934255A768B0024F307 /* WFNetUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4929255A768B0024F307 /* WFNetUtility.cpp */; };
+		7BCE4935255A768B0024F307 /* WFNetDNSService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE492B255A768B0024F307 /* WFNetDNSService.cpp */; };
+		7BCE4936255A768B0024F307 /* WFNetBaseService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE492C255A768B0024F307 /* WFNetBaseService.cpp */; };
+		7BCE4937255A768B0024F307 /* WFNetPingService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE492E255A768B0024F307 /* WFNetPingService.cpp */; };
+		7BCE4938255A768B0024F307 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE4930255A768B0024F307 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +32,17 @@
 		7B01FFC721BFB31700097B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B01FFC921BFB31700097B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B01FFCA21BFB31700097B1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7B01FFD421BFB3BE00097B1F /* WFNetPingService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetPingService.cpp; sourceTree = "<group>"; };
-		7B01FFD521BFB3BE00097B1F /* WFNeTPingService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WFNeTPingService.hpp; sourceTree = "<group>"; };
-		7B01FFD721BFB3D900097B1F /* WFNetTraceRouteService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetTraceRouteService.cpp; sourceTree = "<group>"; };
-		7B01FFD821BFB3D900097B1F /* WFNetTraceRouteService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WFNetTraceRouteService.hpp; sourceTree = "<group>"; };
-		7B01FFDA21BFB3ED00097B1F /* WFNetDNSService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetDNSService.cpp; sourceTree = "<group>"; };
-		7B01FFDB21BFB3ED00097B1F /* WFNetDNSService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WFNetDNSService.hpp; sourceTree = "<group>"; };
-		7B01FFDD21BFB83100097B1F /* WFNetBaseService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetBaseService.cpp; sourceTree = "<group>"; };
-		7B01FFDE21BFB83100097B1F /* WFNetBaseService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WFNetBaseService.hpp; sourceTree = "<group>"; };
-		7B01FFE021C0B65900097B1F /* WFNetUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetUtility.cpp; sourceTree = "<group>"; };
-		7B01FFE121C0B65900097B1F /* WFNetUtility.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WFNetUtility.hpp; sourceTree = "<group>"; };
+		7BCE4927255A768B0024F307 /* WFNetTraceRouteService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetTraceRouteService.cpp; sourceTree = "<group>"; };
+		7BCE4928255A768B0024F307 /* WFNetBaseService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WFNetBaseService.hpp; sourceTree = "<group>"; };
+		7BCE4929255A768B0024F307 /* WFNetUtility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetUtility.cpp; sourceTree = "<group>"; };
+		7BCE492A255A768B0024F307 /* WFNeTPingService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WFNeTPingService.hpp; sourceTree = "<group>"; };
+		7BCE492B255A768B0024F307 /* WFNetDNSService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetDNSService.cpp; sourceTree = "<group>"; };
+		7BCE492C255A768B0024F307 /* WFNetBaseService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetBaseService.cpp; sourceTree = "<group>"; };
+		7BCE492D255A768B0024F307 /* WFNetUtility.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WFNetUtility.hpp; sourceTree = "<group>"; };
+		7BCE492E255A768B0024F307 /* WFNetPingService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WFNetPingService.cpp; sourceTree = "<group>"; };
+		7BCE492F255A768B0024F307 /* WFNetDNSService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WFNetDNSService.hpp; sourceTree = "<group>"; };
+		7BCE4930255A768B0024F307 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		7BCE4931255A768B0024F307 /* WFNetTraceRouteService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WFNetTraceRouteService.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,20 +75,11 @@
 		7B01FFBA21BFB31500097B1F /* NetworkTools */ = {
 			isa = PBXGroup;
 			children = (
+				7BCE4925255A768B0024F307 /* Class */,
 				7B01FFBB21BFB31500097B1F /* AppDelegate.h */,
 				7B01FFBC21BFB31500097B1F /* AppDelegate.mm */,
 				7B01FFBE21BFB31500097B1F /* ViewController.h */,
 				7B01FFBF21BFB31500097B1F /* ViewController.m */,
-				7B01FFDE21BFB83100097B1F /* WFNetBaseService.hpp */,
-				7B01FFDD21BFB83100097B1F /* WFNetBaseService.cpp */,
-				7B01FFDB21BFB3ED00097B1F /* WFNetDNSService.hpp */,
-				7B01FFDA21BFB3ED00097B1F /* WFNetDNSService.cpp */,
-				7B01FFD521BFB3BE00097B1F /* WFNeTPingService.hpp */,
-				7B01FFD421BFB3BE00097B1F /* WFNetPingService.cpp */,
-				7B01FFD821BFB3D900097B1F /* WFNetTraceRouteService.hpp */,
-				7B01FFD721BFB3D900097B1F /* WFNetTraceRouteService.cpp */,
-				7B01FFE121C0B65900097B1F /* WFNetUtility.hpp */,
-				7B01FFE021C0B65900097B1F /* WFNetUtility.cpp */,
 				7B01FFC121BFB31500097B1F /* Main.storyboard */,
 				7B01FFC421BFB31700097B1F /* Assets.xcassets */,
 				7B01FFC621BFB31700097B1F /* LaunchScreen.storyboard */,
@@ -94,6 +87,40 @@
 				7B01FFCA21BFB31700097B1F /* main.m */,
 			);
 			path = NetworkTools;
+			sourceTree = "<group>";
+		};
+		7BCE4925255A768B0024F307 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE4926255A768B0024F307 /* C++ */,
+				7BCE4932255A768B0024F307 /* ios */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7BCE4926255A768B0024F307 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE4930255A768B0024F307 /* readme.txt */,
+				7BCE492C255A768B0024F307 /* WFNetBaseService.cpp */,
+				7BCE4928255A768B0024F307 /* WFNetBaseService.hpp */,
+				7BCE492B255A768B0024F307 /* WFNetDNSService.cpp */,
+				7BCE492F255A768B0024F307 /* WFNetDNSService.hpp */,
+				7BCE492E255A768B0024F307 /* WFNetPingService.cpp */,
+				7BCE492A255A768B0024F307 /* WFNeTPingService.hpp */,
+				7BCE4927255A768B0024F307 /* WFNetTraceRouteService.cpp */,
+				7BCE4931255A768B0024F307 /* WFNetTraceRouteService.hpp */,
+				7BCE4929255A768B0024F307 /* WFNetUtility.cpp */,
+				7BCE492D255A768B0024F307 /* WFNetUtility.hpp */,
+			);
+			path = "C++";
+			sourceTree = "<group>";
+		};
+		7BCE4932255A768B0024F307 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +182,7 @@
 			files = (
 				7B01FFC821BFB31700097B1F /* LaunchScreen.storyboard in Resources */,
 				7B01FFC521BFB31700097B1F /* Assets.xcassets in Resources */,
+				7BCE4938255A768B0024F307 /* readme.txt in Resources */,
 				7B01FFC321BFB31500097B1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,14 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B01FFDC21BFB3ED00097B1F /* WFNetDNSService.cpp in Sources */,
-				7B01FFE221C0B65900097B1F /* WFNetUtility.cpp in Sources */,
-				7B01FFD621BFB3BE00097B1F /* WFNetPingService.cpp in Sources */,
+				7BCE4937255A768B0024F307 /* WFNetPingService.cpp in Sources */,
+				7BCE4934255A768B0024F307 /* WFNetUtility.cpp in Sources */,
 				7B01FFC021BFB31500097B1F /* ViewController.m in Sources */,
+				7BCE4935255A768B0024F307 /* WFNetDNSService.cpp in Sources */,
 				7B01FFCB21BFB31700097B1F /* main.m in Sources */,
+				7BCE4933255A768B0024F307 /* WFNetTraceRouteService.cpp in Sources */,
 				7B01FFBD21BFB31500097B1F /* AppDelegate.mm in Sources */,
-				7B01FFD921BFB3D900097B1F /* WFNetTraceRouteService.cpp in Sources */,
-				7B01FFDF21BFB83100097B1F /* WFNetBaseService.cpp in Sources */,
+				7BCE4936255A768B0024F307 /* WFNetBaseService.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
