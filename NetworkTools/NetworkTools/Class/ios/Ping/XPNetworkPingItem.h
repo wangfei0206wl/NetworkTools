@@ -6,7 +6,7 @@
 //  Copyright © 2018 搜狗企业IT部. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  ping的状态定义

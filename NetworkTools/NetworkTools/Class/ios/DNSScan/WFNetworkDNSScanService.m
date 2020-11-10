@@ -10,4 +10,26 @@
 
 @implementation WFNetworkDNSScanService
 
+- (void)startWithHost:(NSString *)host
+       operationBlock:(void(^)(NSString *operation))operationBlock
+            stopBlock:(void(^)(void))stopBlock {
+    
+}
+
+- (void)stop {
+    
+}
+
+- (BOOL)isWorking {
+    return YES;
+}
+
+- (NSTimeInterval)tts {
+    return 0;
+}
+
+- (NSString *)testData {
+    return nil;
+}
+
 @end

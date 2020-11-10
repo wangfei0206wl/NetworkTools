@@ -24,7 +24,7 @@
 /// @param stopBlock 停止操作的回调
 - (void)startWithHost:(NSString *)host
        operationBlock:(void(^)(NSString *operation))operationBlock
-            stopBlock:(void(^)())stopBlock;
+            stopBlock:(void(^)(void))stopBlock;
 
 /// 停止
 - (void)stop;
