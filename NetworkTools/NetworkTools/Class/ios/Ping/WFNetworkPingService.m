@@ -7,6 +7,7 @@
 //
 
 #import "WFNetworkPingService.h"
+#import "XPNetworkPingItem.h"
 
 @implementation WFNetworkPingService
 

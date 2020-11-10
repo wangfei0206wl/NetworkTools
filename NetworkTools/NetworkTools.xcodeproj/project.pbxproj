@@ -23,6 +23,8 @@
 		7BCE4946255A7F740024F307 /* WFNetworkPingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4945255A7F740024F307 /* WFNetworkPingService.m */; };
 		7BCE494B255A7F9A0024F307 /* WFNetworkRouteTraceService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE494A255A7F9A0024F307 /* WFNetworkRouteTraceService.m */; };
 		7BCE494F255A7FB90024F307 /* WFNetworkDNSScanService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE494E255A7FB90024F307 /* WFNetworkDNSScanService.m */; };
+		7BCE4954255A817A0024F307 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4953255A817A0024F307 /* SimplePing.m */; };
+		7BCE4958255A81C40024F307 /* XPNetworkPingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4957255A81C40024F307 /* XPNetworkPingItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,10 @@
 		7BCE494A255A7F9A0024F307 /* WFNetworkRouteTraceService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFNetworkRouteTraceService.m; sourceTree = "<group>"; };
 		7BCE494D255A7FB90024F307 /* WFNetworkDNSScanService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFNetworkDNSScanService.h; sourceTree = "<group>"; };
 		7BCE494E255A7FB90024F307 /* WFNetworkDNSScanService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFNetworkDNSScanService.m; sourceTree = "<group>"; };
+		7BCE4952255A817A0024F307 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		7BCE4953255A817A0024F307 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		7BCE4956255A81C40024F307 /* XPNetworkPingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPNetworkPingItem.h; sourceTree = "<group>"; };
+		7BCE4957255A81C40024F307 /* XPNetworkPingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPNetworkPingItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +160,11 @@
 		7BCE4942255A7F490024F307 /* Ping */ = {
 			isa = PBXGroup;
 			children = (
+				7BCE4951255A817A0024F307 /* SimplePing */,
 				7BCE4944255A7F740024F307 /* WFNetworkPingService.h */,
 				7BCE4945255A7F740024F307 /* WFNetworkPingService.m */,
+				7BCE4956255A81C40024F307 /* XPNetworkPingItem.h */,
+				7BCE4957255A81C40024F307 /* XPNetworkPingItem.m */,
 			);
 			path = Ping;
 			sourceTree = "<group>";
@@ -167,6 +176,15 @@
 				7BCE494A255A7F9A0024F307 /* WFNetworkRouteTraceService.m */,
 			);
 			path = RouteTrace;
+			sourceTree = "<group>";
+		};
+		7BCE4951255A817A0024F307 /* SimplePing */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE4952255A817A0024F307 /* SimplePing.h */,
+				7BCE4953255A817A0024F307 /* SimplePing.m */,
+			);
+			path = SimplePing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +267,9 @@
 				7BCE494F255A7FB90024F307 /* WFNetworkDNSScanService.m in Sources */,
 				7B01FFCB21BFB31700097B1F /* main.m in Sources */,
 				7BCE4933255A768B0024F307 /* WFNetTraceRouteService.cpp in Sources */,
+				7BCE4958255A81C40024F307 /* XPNetworkPingItem.m in Sources */,
 				7B01FFBD21BFB31500097B1F /* AppDelegate.m in Sources */,
+				7BCE4954255A817A0024F307 /* SimplePing.m in Sources */,
 				7BCE494B255A7F9A0024F307 /* WFNetworkRouteTraceService.m in Sources */,
 				7BCE4936255A768B0024F307 /* WFNetBaseService.cpp in Sources */,
 			);
