@@ -19,6 +19,10 @@
 		7BCE4936255A768B0024F307 /* WFNetBaseService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE492C255A768B0024F307 /* WFNetBaseService.cpp */; };
 		7BCE4937255A768B0024F307 /* WFNetPingService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE492E255A768B0024F307 /* WFNetPingService.cpp */; };
 		7BCE4938255A768B0024F307 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE4930255A768B0024F307 /* readme.txt */; };
+		7BCE493E255A7C250024F307 /* WFNetworkToolStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE493D255A7C250024F307 /* WFNetworkToolStrategy.m */; };
+		7BCE4946255A7F740024F307 /* WFNetworkPingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4945255A7F740024F307 /* WFNetworkPingService.m */; };
+		7BCE494B255A7F9A0024F307 /* WFNetworkRouteTraceService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE494A255A7F9A0024F307 /* WFNetworkRouteTraceService.m */; };
+		7BCE494F255A7FB90024F307 /* WFNetworkDNSScanService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE494E255A7FB90024F307 /* WFNetworkDNSScanService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,15 @@
 		7BCE492F255A768B0024F307 /* WFNetDNSService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WFNetDNSService.hpp; sourceTree = "<group>"; };
 		7BCE4930255A768B0024F307 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		7BCE4931255A768B0024F307 /* WFNetTraceRouteService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WFNetTraceRouteService.hpp; sourceTree = "<group>"; };
+		7BCE493B255A7BDB0024F307 /* WFNetworkToolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFNetworkToolHeader.h; sourceTree = "<group>"; };
+		7BCE493C255A7C250024F307 /* WFNetworkToolStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFNetworkToolStrategy.h; sourceTree = "<group>"; };
+		7BCE493D255A7C250024F307 /* WFNetworkToolStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFNetworkToolStrategy.m; sourceTree = "<group>"; };
+		7BCE4944255A7F740024F307 /* WFNetworkPingService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFNetworkPingService.h; sourceTree = "<group>"; };
+		7BCE4945255A7F740024F307 /* WFNetworkPingService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFNetworkPingService.m; sourceTree = "<group>"; };
+		7BCE4949255A7F9A0024F307 /* WFNetworkRouteTraceService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFNetworkRouteTraceService.h; sourceTree = "<group>"; };
+		7BCE494A255A7F9A0024F307 /* WFNetworkRouteTraceService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFNetworkRouteTraceService.m; sourceTree = "<group>"; };
+		7BCE494D255A7FB90024F307 /* WFNetworkDNSScanService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFNetworkDNSScanService.h; sourceTree = "<group>"; };
+		7BCE494E255A7FB90024F307 /* WFNetworkDNSScanService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFNetworkDNSScanService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,16 +115,16 @@
 			isa = PBXGroup;
 			children = (
 				7BCE4930255A768B0024F307 /* readme.txt */,
-				7BCE492C255A768B0024F307 /* WFNetBaseService.cpp */,
 				7BCE4928255A768B0024F307 /* WFNetBaseService.hpp */,
-				7BCE492B255A768B0024F307 /* WFNetDNSService.cpp */,
+				7BCE492C255A768B0024F307 /* WFNetBaseService.cpp */,
 				7BCE492F255A768B0024F307 /* WFNetDNSService.hpp */,
-				7BCE492E255A768B0024F307 /* WFNetPingService.cpp */,
+				7BCE492B255A768B0024F307 /* WFNetDNSService.cpp */,
 				7BCE492A255A768B0024F307 /* WFNeTPingService.hpp */,
-				7BCE4927255A768B0024F307 /* WFNetTraceRouteService.cpp */,
+				7BCE492E255A768B0024F307 /* WFNetPingService.cpp */,
 				7BCE4931255A768B0024F307 /* WFNetTraceRouteService.hpp */,
-				7BCE4929255A768B0024F307 /* WFNetUtility.cpp */,
+				7BCE4927255A768B0024F307 /* WFNetTraceRouteService.cpp */,
 				7BCE492D255A768B0024F307 /* WFNetUtility.hpp */,
+				7BCE4929255A768B0024F307 /* WFNetUtility.cpp */,
 			);
 			path = "C++";
 			sourceTree = "<group>";
@@ -119,8 +132,41 @@
 		7BCE4932255A768B0024F307 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				7BCE4942255A7F490024F307 /* Ping */,
+				7BCE4943255A7F490024F307 /* RouteTrace */,
+				7BCE4941255A7F490024F307 /* DNSScan */,
+				7BCE493B255A7BDB0024F307 /* WFNetworkToolHeader.h */,
+				7BCE493C255A7C250024F307 /* WFNetworkToolStrategy.h */,
+				7BCE493D255A7C250024F307 /* WFNetworkToolStrategy.m */,
 			);
 			path = ios;
+			sourceTree = "<group>";
+		};
+		7BCE4941255A7F490024F307 /* DNSScan */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE494D255A7FB90024F307 /* WFNetworkDNSScanService.h */,
+				7BCE494E255A7FB90024F307 /* WFNetworkDNSScanService.m */,
+			);
+			path = DNSScan;
+			sourceTree = "<group>";
+		};
+		7BCE4942255A7F490024F307 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE4944255A7F740024F307 /* WFNetworkPingService.h */,
+				7BCE4945255A7F740024F307 /* WFNetworkPingService.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		7BCE4943255A7F490024F307 /* RouteTrace */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE4949255A7F9A0024F307 /* WFNetworkRouteTraceService.h */,
+				7BCE494A255A7F9A0024F307 /* WFNetworkRouteTraceService.m */,
+			);
+			path = RouteTrace;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,12 +241,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BCE4937255A768B0024F307 /* WFNetPingService.cpp in Sources */,
+				7BCE4946255A7F740024F307 /* WFNetworkPingService.m in Sources */,
+				7BCE493E255A7C250024F307 /* WFNetworkToolStrategy.m in Sources */,
 				7BCE4934255A768B0024F307 /* WFNetUtility.cpp in Sources */,
 				7B01FFC021BFB31500097B1F /* ViewController.m in Sources */,
 				7BCE4935255A768B0024F307 /* WFNetDNSService.cpp in Sources */,
+				7BCE494F255A7FB90024F307 /* WFNetworkDNSScanService.m in Sources */,
 				7B01FFCB21BFB31700097B1F /* main.m in Sources */,
 				7BCE4933255A768B0024F307 /* WFNetTraceRouteService.cpp in Sources */,
 				7B01FFBD21BFB31500097B1F /* AppDelegate.m in Sources */,
+				7BCE494B255A7F9A0024F307 /* WFNetworkRouteTraceService.m in Sources */,
 				7BCE4936255A768B0024F307 /* WFNetBaseService.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
